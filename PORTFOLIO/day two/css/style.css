@@ -1,0 +1,138 @@
+/*my fisrt css */
+
+
+body {
+    background-color: aquamarine;
+    width:80%;
+    border: 5px solid rgb(47, 0, 255);
+    margin:0 auto; 
+   
+    }
+img{
+    border: 5px solid black;
+}
+.floot1{ 
+        float: middle  ;
+        margin-top: 1rem; 
+        padding: 0;
+    }
+    
+    article:after { 
+        content: "";
+        display: table;
+        clear: both;
+    }
+
+ul li{
+    border: 5px red solid;
+    margin-bottom: 2rem;
+    width: 20%;
+    text-align: center;
+    display: inline-block;
+}
+a{
+    border:2px green solid;
+    display: block;
+    padding: 1rem;
+    text-decoration:none;
+    
+    
+}
+
+
+a:hover{
+    background-color: brown;
+    color:red;
+    text-decoration:none;
+    
+}
+
+ol li{
+    border:5px purple solid;
+    width: 15%;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+    display:inline-block;
+    
+}
+nav  {
+    border: 5px yellow solid;
+    list-style-type:circle;
+    
+}
+nav ol, ul{
+    list-style-type: none;
+}
+p{
+    text-align: center;
+}
+h1{
+    border: 10px dotted black;
+    text-align: center;
+    font-size: 4rem;
+    background-color: blueviolet;
+}
+.blockquote {
+    background: url(https://placecats.com/300/200)repeat left top;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    text-align: center;
+    font-size: 3rem;
+    color: black;
+    
+    border: 5px solid blue
+}
+.okndzgn {
+    border-radius: 250px ;
+    border: 5px dotted black;
+    background-color: blueviolet;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: oblique;
+    text-align: center;
+    font-size: 3rem;
+    color: black;
+
+}
+.bigbold{
+    font-weight: bold;
+    font-size: 1.7rem;
+    color:rgb(38, 35, 223);
+    border: 5px solid black;
+    
+}
+.trycolor{
+    color: rgb(184, 50, 50);
+    font-size: 2rem;
+    text-align: center;
+
+}
+ cite{
+        font-size: 1.5rem;
+        border: 2px solid black;
+    }
+
+/* .listone{ 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    border: 1px red;
+    font-display: red;
+    font-weight: bold;
+    color:rgb(255, 0, 128)
+}*/
+p.hoover{
+    color: blue;
+}
+ul a:link{
+    font-weight: lighter;
+    font-size: 0.5rem;
+    color:rgb(111, 0, 255);
+}
+a:visited{
+    color:rgb(238, 17, 17);
+    font-size: 0.5rem;
+    font-weight: normal;
+}
+ 
+ a.sdu:link{
+    color:rgb(10, 4, 7);
+ }

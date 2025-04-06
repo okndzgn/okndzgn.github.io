@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Alien Abduction Order Form</title>
+	<link href="contact.css" rel="stylesheet">
+<html>
+</head>
+<body>
+    <div class="wrapper">
+		<section>
+    <h1> Please Fill out the form </h1>
+    <form method="POST" action="https://e3vwdl4bpd.execute-api.us-west-2.amazonaws.com/default/API2SES">
+        <fieldset>
+            <legend>your contact info</legend>
+            <Label for="name" >
+                enter your name here
+            </Label>
+            <input type="text" id="name" name="name" >
+
+            <Label for="surname" >
+                enter your surname here
+            </Label>
+            <input type="text" id="surname" name="surname" >
+
+            <Label for="number" >
+                enter your age here
+            </Label>
+            <input type="number" id="number" name="number" min="18" max="55">
+
+            <Label for="email" >
+                enter your mail here
+            </Label>
+            <input type="text" id="email" name="email" >
+
+            <Label for="phone" >
+                enter your phone here
+            </Label>
+            <input type="tel" id="phone" name="phone" >
+            
+            <Label for="comments"> special thoughts </Label>
+
+
+            <textarea id="comments" name="comments" > enter your wishes here... </textarea>
+            <button type="button" name="Submit"> press to send your info </button>
+        </fieldset>
+        
+        <fieldset>
+            <Legend>your choices</Legend>
+            <label for="food"> which one do you prefer</label>
+            <select name="food" id="food">
+                <option selected> select</option>
+                <option value="rice"> normal white rice</option>
+                <option value="corn"> anatolian corn</option>
+                <option value="wheat rice"> rice made by wheat</option>
+            </select>
+            <p>which city do you want to eat</p>
+            <label> 
+            <input type="radio" value="Classic" name="location" >
+					Istanbul </label>
+            <label >
+            <input type="radio" value="Classic" name="location" checked>
+			    	ANKARA</label>
+            <label>        
+            <input type="radio" value="Classic" name="location" >
+					DUZCE </label>
+            <label>         
+            <input type="radio" value="Classic" name="location" >
+					DİYARBAKIR
+                </label>
+        <button type="button" name="Submit" class="buttontop"> press to send your info </button>
+        </fieldset>
+    </form>
+    <aside class="map-container">
+        <p class="map-label">Our Location </p>
+        <address>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3009.371381927144!2d28.991931475185645!3d41.039006917533506!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14cab776f9715eeb%3A0x2cef984e492e1bd8!2zVMO8cHJhxZ8gU3RhZHl1bXU!5e0!3m2!1str!2str!4v1743511286603!5m2!1str!2str" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </address>
+    </aside>
+        
+    </section>
+</div>
+</body>
+</html>
