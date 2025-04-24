@@ -83,3 +83,15 @@ a{
 a:hover{
     color: azure;
 }
+
+.iframe-container3{
+    display: block;
+    flex-flow: column;
+    justify-content: center;
+
+}
+.calccontrol{
+    margin-left: -6rem;
+    width: 150%;
+    
+}
