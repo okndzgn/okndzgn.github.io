@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body{
 
     margin-top: 5rem;
@@ -103,4 +104,102 @@ a:hover{
     margin-left: -6rem;
     width: 150%;
     
+=======
+body{
+
+    margin-top: 5rem;
+}
+
+.myprojects{
+    background-color: #085349;
+    
+}
+
+.iframe-container {
+
+    display: flex;
+    gap: 6rem; /* Aralarına boşluk bırakır */
+    justify-content: center; 
+}
+
+.flexforp{
+    display: flex;
+    gap: 4rem; /* Aralarına boşluk bırakır */
+    justify-content: center; 
+    text-align: center;
+
+}
+.iframe-container2 {
+
+    display: flex;
+    gap: 6rem; /* Aralarına boşluk bırakır */
+    justify-content: center; 
+}
+
+.flexforp2{
+    display: flex;
+    gap: 4rem; /* Aralarına boşluk bırakır */
+    justify-content: center; 
+    text-align: center;
+    border-top: 5px solid black;
+    margin-top: 2rem;
+
+}
+main{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+}
+
+iframe {
+    width: 40%;
+    height: 500px;
+    border: none; /* İframe kenarlığını kaldırır */
+}
+p{
+    font-size: larger;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    margin-top: 0;
+    
+}
+h1, h2{
+    margin-bottom: 0;
+    
+}
+button {
+    position: fixed;
+  top: 20px;
+  right: 20px;
+  z-index: 1000;
+  padding: 10px 16px;
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+  transition: background-color 0.3s;
+  text-decoration: none;
+}
+a{
+    text-decoration: none;
+
+}
+a:hover{
+    color: azure;
+}
+
+.iframe-container3{
+    display: block;
+    flex-flow: column;
+    justify-content: center;
+
+}
+.calccontrol{
+    margin-left: -6rem;
+    width: 150%;
+    
+>>>>>>> 834652ba7f4d168d659da6c4a982ba71e2a7499f
 }
