@@ -1,0 +1,112 @@
+
+
+body{
+    background-color: #C0C86D;
+    cursor: url("img/cursor.png") 10 10, pointer;
+    
+    
+}
+
+.section{
+    position: relative;
+    width: 100%;
+    height: 90vh;
+    display: block;
+    margin: 0 auto;
+    background-image: url("img/background.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 1200px;
+    
+    
+}
+.margintop{
+    margin-top: 2rem;
+}
+
+.section2{
+    position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+article{
+    
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1rem;
+    gap: 1rem   ;
+    
+
+}
+
+.wantedMole{
+    width: 130%;
+    padding-left: 0;
+    align-items: center;
+    margin-left: -1.3rem;
+    margin-top: -0.7rem;
+}
+
+
+.birdie{
+    cursor: url("img/cursor-worm.png")10 10, pointer;
+
+}
+
+div {
+    width: 140px;
+    height: 130px;
+    border: 1px solid black;
+    border-radius: 65%;
+    background-color: black;
+    
+}
+
+
+
+.winmole{
+    display: block;
+    transform: rotate(90deg);
+    width: 500px;
+    height: 40px;
+    transition: clip-path 0.5s ease-out; 
+}
+aside {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-51%, -50%); /* Ortalamak için */
+  display: flex;
+  gap: 23rem;
+  flex-direction: row;
+}
+
+
+.gone{
+    display: none;
+}
+
+.moleAss{
+    border: black 5px solid;
+    display: block;
+    margin: 0 auto;
+    align-items: center;
+    text-align: center;
+    width: 40%;
+    
+}
+
+.goBack{
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 2rem;
+    background-color: blueviolet;
+    border-radius: 20%;    
+    font-size: 30px;
+}
+
+  
